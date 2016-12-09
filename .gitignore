@@ -1,4 +1,5 @@
 secrets.py
+visualization/graphFile.json
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
