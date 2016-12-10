@@ -1,0 +1,168 @@
+
+body {
+  background: #1c202b;
+  /*cursor: pointer;*/
+}
+
+svg {
+  background: #232937;
+  position: relative;
+}
+
+.sidebar {
+  /*padding: 10px 0 0 13px;*/
+  margin:20px;
+  padding: 0;
+  float: left;
+  font-weight: lighter;
+  font-size: 12px; 
+  line-height:1.5;
+  /*width: 170px;*/
+  width: 150px;
+}
+
+.sidebar b {
+  font-weight: normal;
+}
+
+#statistics {
+  background: #1c202b;  
+}
+
+#legend {
+  position: fixed;
+  bottom: 10px;
+}
+
+.circi {
+  margin-top: 3px;
+  margin-right: 5px;
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  float:left;
+}
+
+#circle {
+  background: #27c97b;
+}
+
+#circle2 {
+  background: #c6dbef;
+}
+
+#rootcircle {
+  background: #1f77b4;
+}
+
+#circle3 {
+  background: #ff7f0e;
+}
+
+#circle4 {
+  background: #1c202b;
+  box-shadow: 0 0 2px #ddd;
+}
+
+
+
+#navbar {
+  background:#13161d;;
+  height:40px;
+  width:100%
+  color: white;
+}
+
+#navbar-header > .btn {
+  margin-top: 5px
+}
+
+.navbar-brand {
+  font-weight: lighter;
+  font-size: 18px;
+}
+
+.node {
+  /*stroke: #ddd;*/
+  /*stroke-width: 1.5px;*/
+  /*opacity: 0.4;*/
+}
+
+.node text {
+  pointer-events: none;
+  font: 10px sans-serif;
+  fill: white;
+  font-weight: lighter;
+  opacity: 0.2;
+}
+
+.link {
+  stroke: #ddd;
+  opacity: 0.4;
+}
+
+
+.reference {
+  stroke: magenta;
+  /*stroke-width: 1px;*/
+  opacity: 0.8;
+}
+
+h3 {
+    color: #1ABC9C;
+    text-align:center;  
+    /*font-style: italic;*/
+    font-size: 14px;
+    /*font-family: "Helvetica";*/
+    margin-top: 14px !important;
+    margin-bottom: 12px !important;
+}
+
+d3-tip {
+    line-height: 1;
+    color: black;
+}
+
+.d3-tip {
+  background: white;
+  border: solid 1px #ddd;
+  padding: 6px;
+  font-size: 10px;
+  font-family: "Helvetica";
+}
+
+.tooltip2 {
+  background: #ddd;
+  display: none;
+  font-size: 12px;
+  line-height: 1.4;
+  color: black;
+  padding: 10px;
+  position: absolute;
+  top: 42px;
+  left: 188px;
+  width: 300px;
+  z-index: 10;
+}
+
+
+h5 {
+  margin-top: 6px !important;
+  margin-bottom: 2px !important;
+  font-weight: bold;
+}
+
+.tooltip2 h5 {
+  margin-top: 6px !important;
+  margin-bottom: 2px !important;
+}
+
+.apppath {
+  /*display: none;*/
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: lighter;
+  height: auto;
+  float: left;
+  padding-top: 11px;
+}

@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css"
+          href="https://fonts.googleapis.com/css?family=Source+Sans+Pro">
+
+<script type='text/javascript' src="//d3js.org/d3.v3.min.js"></script>
+<script type='text/javascript' src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"> </script>
+<script type='text/javascript' src="//d3js.org/d3-zoom.v1.min.js"></script>
+<link rel="stylesheet" type="text/css" href="style_m.css">
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>networking - marathon overview</title>
+<body>
+<div id="navbar">
+    <div id="navbar-header">
+        <a class="navbar-brand">networking</a>
+        <div class="apppath">&nbsp;&nbsp;&nbsp;</div>
+        <div style="height:30px">&nbsp;&nbsp;&nbsp;</div>
+    <menu></menu>
+    </div>
+    <div class="sidebar">
+        <div id="statistics">
+          <b>stats</b>
+          <div class="stats"></div>
+        </div>
+        <br>
+        <br>
+        <div id="legend">
+          <b>legend</b><br>
+          <div id="rootcircle" class="circi"></div> root<br>
+          <div id="circle" class="circi"></div> app (radius instances)<br>
+          <div id="circle4" class="circi"></div> zero instances<br>
+          <div id="circle3" class="circi"></div> directory<br>
+          <div id="circle2" class="circi"></div> dir apps only<br>
+          <span style="border-bottom: 1px solid #ddd; width: 200px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;link</span><br>
+          <span style="border-bottom: 1px dashed magenta; width: 200px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;reference</span><br>
+        </div>
+    </div>
+</div>
+
+
+<!-- <div id="console_out_div">LOG</div> -->
+<div id="container"></div>
+
+<script>
+
+var margin = {top: -5, right: -5, bottom: -5, left: -5},
+    width = 1060 - margin.left - margin.right,
+    height = 600 - margin.top - margin.bottom;
+
+// //Set up tooltip next to node
+// var tip = d3.tip()
+//             .attr('class', 'd3-tip')
+//             // .offset(function (d) {
+//             //   return [d.x, d.y]
+//             // })
+//             .offset(function (d) { return [-10, 0] })
+//             .html(function (d) {
+//               if (d.leaf) {
+//                 return '<div class="tooltip2">' + d.tooltip + '</div>';
+//               }else{
+//                 return '<div class="tooltip2">' + d.node_name + '</div>'}
+//             })
+
+
+console.log = function (message) {
+    //prettify message here
+    d3.select("#console_out_div").html("<p>" + message + "</p>");
+};
+
+function fileExists(url) {
+    var http = new XMLHttpRequest();
+    http.open('HEAD', url, false)
+    http.send()
+    return http.status!=404;
+}
+
+var graphFile = "graphFile.json"
+
+if (!fileExists(graphFile)) {
+    graphFile = "graphFileExample.json"
+}
+
+
+
+d3.json(graphFile, function(graph) {
+
+    var marathon_url = graph.MARATHON_URL
+
+    // stats 
+    var stats = d3.select('div.stats')            // NEW
+        .html(graph.stats)
+
+    var svg = d3.select("div#container")
+                .append("svg")
+                .attr("width", width)
+                .attr("height", height)
+                .call(d3.behavior.zoom().on("zoom", function () {
+                    svg.attr("transform", "translate(" + d3.event.translate + ")" + " scale(" + d3.event.scale + ")")
+                  }))
+                .append("g")
+                // .call(tip)
+
+    var apppath = d3.select('div.apppath')            // NEW
+
+
+    var tooltip = d3.select('div#container')            // NEW
+      .append('div')                             // NEW
+      .attr('class', 'tooltip2')                 // NEW
+      .on('click', function(d, i){
+          // console.log("X:" + d.x, "Y:" + d.y) #displays the cell x y location
+          d3.select(this).style("display", "none");
+          apppath.style('display', 'none');
+        })
+      // .on('mouseover', function (d) {
+
+      //     // console.log(tooltip)
+      //     // window.x = d
+      //     // tooltip.html(zap(d))
+      //     apppath.style('display', 'none');
+      //     tooltip.style('display', 'none');
+      //   })
+
+    // var closebutton = d3.select('.close')            // NEW
+    //   .on('mouseover', function (d) {
+    //       // console.log(tooltip)
+    //       // window.x = d
+    //       // tooltip.html(zap(d))
+    //       apppath.style('display', 'none');
+    //       tooltip.style('display', 'none');
+    //     })
+
+
+    // var closeArea = d3.select('.tooltip2').append('text')
+    //               .text('X')
+    //               .attr("y", 20)
+    //               .attr("font-family", "sans-serif")
+    //               .attr("font-size", "20px")
+    //               .attr("fill", "red");
+
+
+
+    var force = d3.layout.force()
+                         .size([width, height])
+                         .nodes(graph.nodes)
+                         .links(graph.links)
+                         .gravity(.13)
+                         // .distance(80)
+                         .charge(-120)
+                         .linkDistance(function(d) {
+                            return 30
+                          })
+                         .start();
+
+    var link = svg.selectAll(".link")
+                  .data(graph.links)
+                  .enter().append("line")
+                  .attr("class", function(d) {
+                    if (d.weight === 100) { return "reference" }else{ return "link" }
+                  })
+                  .style("stroke-dasharray", function(d) {
+                    if (d.weight === 100) { return ("3, 3") }else{ return ("0, 0") }
+                  })
+
+                  // .style("stroke-width", );
+
+    function create_link(dname, dleaf) {
+      var path = dname.split('/')
+      path.splice(0,1)
+      var uri = dname.split('/')
+      uri.splice(0,2)
+
+      var group = dleaf ? '/ui/#/apps/%2F' : '/ui/#/group/%2F'
+      var mara = marathon_url + group + uri.join("%2F")
+
+      return '<a href="' + mara + '" target="_blank">' + path.join(" > ") + '</a>' 
+    }
+
+
+
+    //Do the same with the circles for the nodes - no 
+    var node = svg.selectAll(".node")
+                  .data(graph.nodes)
+                  .enter().append("g")
+                  .attr("class", "node")
+                  .on('dblclick', connectedNodes) //Added code
+                  // .on('mouseover', tip.show) //Added
+                  // .on('mouseout', tip.hide) //Added 
+                  .on('mouseover', function (d) {
+
+                      // console.log(tooltip)
+                      // window.x = d
+                      // tooltip.html(zap(d))
+                      apppath.style('display', 'none');
+                      tooltip.style('display', 'none');
+
+                      var ui_link = create_link(d.name, d.leaf)
+                      apppath.html(ui_link)
+                      apppath.style('display', 'block');
+
+                      if (d.leaf) {
+                        tooltip.html('<div class="close">X</div>' + d.tooltip)
+                        tooltip.style('display', 'block');
+                      }
+                  }) //Added
+                  .on('mouseout', function() {
+
+
+                  }) //Added 
+                  .call(force.drag)
+
+    function zap(d) {
+          console.log(d)
+          if (d.leaf) {
+            return '<div class="tooltip2">' + d.tooltip + '</div>';
+          }else{
+            return '<div class="tooltip2">' + d.node_name + '</div>'}
+        }
+
+
+    node.append("circle")
+        .attr("r", function (d) { 
+          // if ( === 1) {
+          //   return "#17becf"
+          // }else{ 
+              return d.instances+6
+        })
+        .style("fill", function (d) { 
+          if (d.leaf === 1) { 
+            if (d.instances !== 0) { return "#27c97b" } else { return "#1c202b" }
+            
+          }else{ 
+            if (d.tooltip === 'root'){ return "#1f77b4" }
+            if (d.is_app) { return '#c6dbef'; }else{ return '#ff7f0e'; }
+            }
+        })
+        .style("stroke", "#ddd")
+        .style("stroke-width", "0.8")
+        .style("stroke-opacity", "0.4")
+
+
+
+    node.append("text")
+        .attr("dx", 10)
+        .attr("dy", ".35em")
+        .text(function(d) { return d.node_name}) // + ' ' + d.depth })
+
+
+    // Now we are giving the SVGs co-ordinates - the force layout is
+    // generating the co-ordinates which this code is using to update
+    // the attributes of the SVG elements
+    // see   node.append("text")
+
+    force.on("tick", tick);
+
+    function tick() {
+
+      link.attr("x1", function(d) { return d.source.x; })
+          .attr("y1", function(d) { return d.source.y; })
+          .attr("x2", function(d) { return d.target.x; })
+          .attr("y2", function(d) { return d.target.y; });
+
+      d3.selectAll("circle")
+        .attr("cx", function (d) { return d.x; })
+        .attr("cy", function (d) { return d.y; });
+
+      d3.selectAll("text")
+        .attr("x", function (d) { return d.x; })
+        .attr("y", function (d) { return d.y; });
+
+      node.each(collide(0.6)); //Added 
+    };
+
+
+    // see node.each(collide(0.9)
+    var padding=3, // separation between circles
+        radius=10;
+    function collide(alpha) {
+      var quadtree = d3.geom.quadtree(graph.nodes);
+      return function(d) {
+        var rb = 2*radius + padding,
+            nx1 = d.x - rb,
+            nx2 = d.x + rb,
+            ny1 = d.y - rb,
+            ny2 = d.y + rb;
+        quadtree.visit(function(quad, x1, y1, x2, y2) {
+          if (quad.point && (quad.point !== d)) {
+            var x = d.x - quad.point.x,
+                y = d.y - quad.point.y,
+                l = Math.sqrt(x * x + y * y);
+              if (l < rb) {
+              l = (l - rb) / l * alpha;
+              d.x -= x *= l;
+              d.y -= y *= l;
+              quad.point.x += x;
+              quad.point.y += y;
+            }
+          }
+          return x1 > nx2 || x2 < nx1 || y1 > ny2 || y2 < ny1;
+        });
+      };
+    }
+
+    // see .on('dblclick', connectedNodes); //Added code
+    //Toggle stores whether the highlighting is on
+    var toggle = 0;
+    //Create an array logging what is connected to what
+    var linkedByIndex = {};
+    for (i = 0; i < graph.nodes.length; i++) {
+        linkedByIndex[i + "," + i] = 1;
+    };
+    graph.links.forEach(function (d) {
+        linkedByIndex[d.source.index + "," + d.target.index] = 1;
+    });
+    //This function looks up whether a pair are neighbours
+    function neighboring(a, b) {
+        return linkedByIndex[a.index + "," + b.index];
+    }
+    function connectedNodes() {
+        if (toggle == 0) {
+            //Reduce the opacity of all but the neighbouring nodes
+            d = d3.select(this).node().__data__;
+            node.style("opacity", function (o) {
+                return neighboring(d, o) | neighboring(o, d) ? 1 : 0.1;
+            });
+            link.style("opacity", function (o) {
+                return d.index==o.source.index | d.index==o.target.index ? 1 : 0.1;
+            });
+            //Reduce the op
+            toggle = 1;
+        } else {
+            //Put them back to opacity=1
+            node.style("opacity", 1);
+            link.style("opacity", 1);
+            toggle = 0;
+        }
+    }
+
+});
+
+</script>

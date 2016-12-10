@@ -1,0 +1,2213 @@
+{
+    "MARATHON_URL": "http://homoltae.hiaaa-ael.mlmasnnaml.de:5558", 
+    "nodes": [
+        {
+            "leaf": 1, 
+            "name": "/Applications/niha/lha/titl/ni/aelimltaelamstiasnnoli", 
+            "is_app": 0, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "aelimltaelamstiasnnoli", 
+            "connections": {}, 
+            "instances": 1, 
+            "depth": 6, 
+            "group": "/Applications/niha/lha/titl/ni"
+        }, 
+        {
+            "leaf": 1, 
+            "name": "/Applications/alohi/atomi-easela/aetinstim", 
+            "is_app": 0, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "aetinstim", 
+            "connections": {}, 
+            "instances": 1, 
+            "depth": 4, 
+            "group": "/Applications/alohi/atomi-easela"
+        }, 
+        {
+            "leaf": 0, 
+            "name": "/Applications/niha/lha/titl", 
+            "is_app": 0, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "titl", 
+            "connections": {}, 
+            "instances": 0, 
+            "depth": 4, 
+            "group": "/Applications/niha/lha"
+        }, 
+        {
+            "leaf": 1, 
+            "name": "/Applications/alohi/honaoel/en/lha-lan-mieiel-hihnim-snnoli", 
+            "is_app": 0, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "lha-lan-mieiel-hihnim-snnoli", 
+            "connections": {}, 
+            "instances": 1, 
+            "depth": 5, 
+            "group": "/Applications/alohi/honaoel/en"
+        }, 
+        {
+            "leaf": 1, 
+            "name": "/Applications/alohi/honaoel/nee/lha-noelien", 
+            "is_app": 0, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "lha-noelien", 
+            "connections": {}, 
+            "instances": 1, 
+            "depth": 5, 
+            "group": "/Applications/alohi/honaoel/nee"
+        }, 
+        {
+            "leaf": 0, 
+            "name": "/Applications/nia/atomi-easela/gl", 
+            "is_app": 1, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "gl", 
+            "connections": {}, 
+            "instances": 0, 
+            "depth": 4, 
+            "group": "/Applications/nia/atomi-easela"
+        }, 
+        {
+            "leaf": 1, 
+            "name": "/Applications/nia/jial/nshhria", 
+            "is_app": 0, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "nshhria", 
+            "connections": {}, 
+            "instances": 0, 
+            "depth": 4, 
+            "group": "/Applications/nia/jial"
+        }, 
+        {
+            "leaf": 1, 
+            "name": "/Applications/alohi/lha-nmaliela/noj/taehonani", 
+            "is_app": 0, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "taehonani", 
+            "connections": {}, 
+            "instances": 1, 
+            "depth": 5, 
+            "group": "/Applications/alohi/lha-nmaliela/noj"
+        }, 
+        {
+            "leaf": 1, 
+            "name": "/Applications/alohi/honaoel/hoj/lha-lan-lmiena-snnoli", 
+            "is_app": 0, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "lha-lan-lmiena-snnoli", 
+            "connections": {}, 
+            "instances": 1, 
+            "depth": 5, 
+            "group": "/Applications/alohi/honaoel/hoj"
+        }, 
+        {
+            "leaf": 1, 
+            "name": "/Applications/niha/taehona-oslaaeoti", 
+            "is_app": 0, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "taehona-oslaaeoti", 
+            "connections": {}, 
+            "instances": 1, 
+            "depth": 3, 
+            "group": "/Applications/niha"
+        }, 
+        {
+            "leaf": 0, 
+            "name": "/Applications/alohi/honaoel/taj", 
+            "is_app": 1, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "taj", 
+            "connections": {}, 
+            "instances": 0, 
+            "depth": 4, 
+            "group": "/Applications/alohi/honaoel"
+        }, 
+        {
+            "leaf": 1, 
+            "name": "/Applications/alohi/lha-nmaliela/noj/mieielhihnimasnnoli", 
+            "is_app": 0, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "mieielhihnimasnnoli", 
+            "connections": {}, 
+            "instances": 1, 
+            "depth": 5, 
+            "group": "/Applications/alohi/lha-nmaliela/noj"
+        }, 
+        {
+            "leaf": 1, 
+            "name": "/Applications/alohi/gojnimloh/lmoel-saima", 
+            "is_app": 0, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "lmoel-saima", 
+            "connections": {}, 
+            "instances": 1, 
+            "depth": 4, 
+            "group": "/Applications/alohi/gojnimloh"
+        }, 
+        {
+            "leaf": 1, 
+            "name": "/Applications/niha/taehonani", 
+            "is_app": 0, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "taehonani", 
+            "connections": {}, 
+            "instances": 1, 
+            "depth": 3, 
+            "group": "/Applications/niha"
+        }, 
+        {
+            "leaf": 1, 
+            "name": "/Applications/niha/lha/mlm/ie/noelien", 
+            "is_app": 0, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "noelien", 
+            "connections": {}, 
+            "instances": 1, 
+            "depth": 6, 
+            "group": "/Applications/niha/lha/mlm/ie"
+        }, 
+        {
+            "leaf": 1, 
+            "name": "/Applications/nia/gl/naatimnani-ona", 
+            "is_app": 0, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "naatimnani-ona", 
+            "connections": {}, 
+            "instances": 1, 
+            "depth": 4, 
+            "group": "/Applications/nia/gl"
+        }, 
+        {
+            "leaf": 1, 
+            "name": "/Applications/niha/lha/titl/ni/noelien", 
+            "is_app": 0, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "noelien", 
+            "connections": {}, 
+            "instances": 1, 
+            "depth": 6, 
+            "group": "/Applications/niha/lha/titl/ni"
+        }, 
+        {
+            "leaf": 1, 
+            "name": "/Applications/alohi/jialaetaei/nhllial", 
+            "is_app": 0, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "nhllial", 
+            "connections": {}, 
+            "instances": 0, 
+            "depth": 4, 
+            "group": "/Applications/alohi/jialaetaei"
+        }, 
+        {
+            "leaf": 1, 
+            "name": "/Applications/nia/eth-ntolgamh/laholo-eth", 
+            "is_app": 0, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "laholo-eth", 
+            "connections": {}, 
+            "instances": 1, 
+            "depth": 4, 
+            "group": "/Applications/nia/eth-ntolgamh"
+        }, 
+        {
+            "leaf": 1, 
+            "name": "/Applications/alohi/honaoel/hoj/lha-lan-mieiel-hihnim-snnoli", 
+            "is_app": 0, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "lha-lan-mieiel-hihnim-snnoli", 
+            "connections": {}, 
+            "instances": 1, 
+            "depth": 5, 
+            "group": "/Applications/alohi/honaoel/hoj"
+        }, 
+        {
+            "leaf": 0, 
+            "name": "/Applications/nia/lha-nia01", 
+            "is_app": 1, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "lha-nia01", 
+            "connections": {}, 
+            "instances": 0, 
+            "depth": 3, 
+            "group": "/Applications/nia"
+        }, 
+        {
+            "leaf": 0, 
+            "name": "/Applications/alohi/honaoel/hoj", 
+            "is_app": 1, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "hoj", 
+            "connections": {}, 
+            "instances": 0, 
+            "depth": 4, 
+            "group": "/Applications/alohi/honaoel"
+        }, 
+        {
+            "leaf": 1, 
+            "name": "/Applications/nia/atomi-easela/gl/aetinstim", 
+            "is_app": 0, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "aetinstim", 
+            "connections": {}, 
+            "instances": 1, 
+            "depth": 5, 
+            "group": "/Applications/nia/atomi-easela/gl"
+        }, 
+        {
+            "leaf": 0, 
+            "name": "/Applications/nia/gl", 
+            "is_app": 1, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "gl", 
+            "connections": {}, 
+            "instances": 0, 
+            "depth": 3, 
+            "group": "/Applications/nia"
+        }, 
+        {
+            "leaf": 1, 
+            "name": "/Applications/nia/atomi-easela/gl/tamlim-lt", 
+            "is_app": 0, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "tamlim-lt", 
+            "connections": {}, 
+            "instances": 1, 
+            "depth": 5, 
+            "group": "/Applications/nia/atomi-easela/gl"
+        }, 
+        {
+            "leaf": 1, 
+            "name": "/Applications/alohi/atomi-easela/tamlim-lt", 
+            "is_app": 0, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "tamlim-lt", 
+            "connections": {}, 
+            "instances": 1, 
+            "depth": 4, 
+            "group": "/Applications/alohi/atomi-easela"
+        }, 
+        {
+            "leaf": 1, 
+            "name": "/Applications/alohi/atomi-easela/tamlim-h", 
+            "is_app": 0, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "tamlim-h", 
+            "connections": {}, 
+            "instances": 1, 
+            "depth": 4, 
+            "group": "/Applications/alohi/atomi-easela"
+        }, 
+        {
+            "leaf": 1, 
+            "name": "/Applications/niha/lha/mlm/ie/mieielhihnimasnnoli", 
+            "is_app": 0, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "mieielhihnimasnnoli", 
+            "connections": {}, 
+            "instances": 1, 
+            "depth": 6, 
+            "group": "/Applications/niha/lha/mlm/ie"
+        }, 
+        {
+            "leaf": 1, 
+            "name": "/Applications/alohi/atomi-easela/minaa", 
+            "is_app": 0, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "minaa", 
+            "connections": {}, 
+            "instances": 1, 
+            "depth": 4, 
+            "group": "/Applications/alohi/atomi-easela"
+        }, 
+        {
+            "leaf": 0, 
+            "name": "/Applications/nia/jng", 
+            "is_app": 1, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "jng", 
+            "connections": {}, 
+            "instances": 0, 
+            "depth": 3, 
+            "group": "/Applications/nia"
+        }, 
+        {
+            "leaf": 1, 
+            "name": "/Applications/alohi/honaoel/hlil/lha-lan-mieiel-hihnim-snnoli", 
+            "is_app": 0, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "lha-lan-mieiel-hihnim-snnoli", 
+            "connections": {}, 
+            "instances": 1, 
+            "depth": 5, 
+            "group": "/Applications/alohi/honaoel/hlil"
+        }, 
+        {
+            "leaf": 0, 
+            "name": "/Applications/alohi/honaoel/hlil", 
+            "is_app": 1, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "hlil", 
+            "connections": {}, 
+            "instances": 0, 
+            "depth": 4, 
+            "group": "/Applications/alohi/honaoel"
+        }, 
+        {
+            "leaf": 1, 
+            "name": "/Applications/niha/taehonaie", 
+            "is_app": 0, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "taehonaie", 
+            "connections": {}, 
+            "instances": 1, 
+            "depth": 3, 
+            "group": "/Applications/niha"
+        }, 
+        {
+            "leaf": 1, 
+            "name": "/Applications/alohi/honaoel/en/lha-noelien", 
+            "is_app": 0, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "lha-noelien", 
+            "connections": {}, 
+            "instances": 1, 
+            "depth": 5, 
+            "group": "/Applications/alohi/honaoel/en"
+        }, 
+        {
+            "leaf": 1, 
+            "name": "/Applications/nia/atomi-easela/gl/tinonn", 
+            "is_app": 0, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "tinonn", 
+            "connections": {}, 
+            "instances": 1, 
+            "depth": 5, 
+            "group": "/Applications/nia/atomi-easela/gl"
+        }, 
+        {
+            "leaf": 1, 
+            "name": "/Applications/nia/gl/taehonaie", 
+            "is_app": 0, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "taehonaie", 
+            "connections": {}, 
+            "instances": 1, 
+            "depth": 4, 
+            "group": "/Applications/nia/gl"
+        }, 
+        {
+            "leaf": 1, 
+            "name": "/Applications/nia/atomi-easela/minaa", 
+            "is_app": 0, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "minaa", 
+            "connections": {}, 
+            "instances": 1, 
+            "depth": 4, 
+            "group": "/Applications/nia/atomi-easela"
+        }, 
+        {
+            "leaf": 1, 
+            "name": "/Applications/nia/goj/hiaona", 
+            "is_app": 0, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "hiaona", 
+            "connections": {}, 
+            "instances": 1, 
+            "depth": 4, 
+            "group": "/Applications/nia/goj"
+        }, 
+        {
+            "leaf": 1, 
+            "name": "/Applications/nia/jial/nitaehona", 
+            "is_app": 0, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "nitaehona", 
+            "connections": {}, 
+            "instances": 0, 
+            "depth": 4, 
+            "group": "/Applications/nia/jial"
+        }, 
+        {
+            "leaf": 1, 
+            "name": "/Applications/alohi/honaoel/hlil/lha-lan-lmiena-snnoli", 
+            "is_app": 0, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "lha-lan-lmiena-snnoli", 
+            "connections": {}, 
+            "instances": 1, 
+            "depth": 5, 
+            "group": "/Applications/alohi/honaoel/hlil"
+        }, 
+        {
+            "leaf": 1, 
+            "name": "/Applications/alohi/atomi-easela/tinonn", 
+            "is_app": 0, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "tinonn", 
+            "connections": {}, 
+            "instances": 1, 
+            "depth": 4, 
+            "group": "/Applications/alohi/atomi-easela"
+        }, 
+        {
+            "leaf": 1, 
+            "name": "/Applications/alohi/hiaona", 
+            "is_app": 0, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "hiaona", 
+            "connections": {}, 
+            "instances": 1, 
+            "depth": 3, 
+            "group": "/Applications/alohi"
+        }, 
+        {
+            "leaf": 0, 
+            "name": "/Applications/alohi/honaoel/nee", 
+            "is_app": 1, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "nee", 
+            "connections": {}, 
+            "instances": 0, 
+            "depth": 4, 
+            "group": "/Applications/alohi/honaoel"
+        }, 
+        {
+            "leaf": 1, 
+            "name": "/Applications/niha/lha/mlm/ni/noelien", 
+            "is_app": 0, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "noelien", 
+            "connections": {}, 
+            "instances": 1, 
+            "depth": 6, 
+            "group": "/Applications/niha/lha/mlm/ni"
+        }, 
+        {
+            "leaf": 1, 
+            "name": "/Applications/alohi/honaoel/taj/lha-lan-lmiena-snnoli", 
+            "is_app": 0, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "lha-lan-lmiena-snnoli", 
+            "connections": {}, 
+            "instances": 1, 
+            "depth": 5, 
+            "group": "/Applications/alohi/honaoel/taj"
+        }, 
+        {
+            "leaf": 1, 
+            "name": "/Applications/niha/lha/mlm/ni/mieielhihnimasnnoli", 
+            "is_app": 0, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "mieielhihnimasnnoli", 
+            "connections": {}, 
+            "instances": 1, 
+            "depth": 6, 
+            "group": "/Applications/niha/lha/mlm/ni"
+        }, 
+        {
+            "leaf": 1, 
+            "name": "/Applications/nia/atomi-easela/tinonn", 
+            "is_app": 0, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "tinonn", 
+            "connections": {}, 
+            "instances": 1, 
+            "depth": 4, 
+            "group": "/Applications/nia/atomi-easela"
+        }, 
+        {
+            "leaf": 1, 
+            "name": "/Applications/niha/lha/aaihiea/ni/noelien", 
+            "is_app": 0, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "noelien", 
+            "connections": {}, 
+            "instances": 1, 
+            "depth": 6, 
+            "group": "/Applications/niha/lha/aaihiea/ni"
+        }, 
+        {
+            "leaf": 0, 
+            "name": "/Applications/nia/goj", 
+            "is_app": 1, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "goj", 
+            "connections": {}, 
+            "instances": 0, 
+            "depth": 3, 
+            "group": "/Applications/nia"
+        }, 
+        {
+            "leaf": 1, 
+            "name": "/Applications/nia/noj/lha", 
+            "is_app": 0, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "lha", 
+            "connections": {}, 
+            "instances": 0, 
+            "depth": 4, 
+            "group": "/Applications/nia/noj"
+        }, 
+        {
+            "leaf": 1, 
+            "name": "/Applications/nia/atomi-easela/tamlim-gn", 
+            "is_app": 0, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "tamlim-gn", 
+            "connections": {}, 
+            "instances": 1, 
+            "depth": 4, 
+            "group": "/Applications/nia/atomi-easela"
+        }, 
+        {
+            "leaf": 1, 
+            "name": "/Applications/niha/lha/mlm/ie/aiinniha", 
+            "is_app": 0, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "aiinniha", 
+            "connections": {}, 
+            "instances": 1, 
+            "depth": 6, 
+            "group": "/Applications/niha/lha/mlm/ie"
+        }, 
+        {
+            "leaf": 0, 
+            "name": "/Applications/alohi/atomi-easela", 
+            "is_app": 1, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "atomi-easela", 
+            "connections": {}, 
+            "instances": 0, 
+            "depth": 3, 
+            "group": "/Applications/alohi"
+        }, 
+        {
+            "leaf": 1, 
+            "name": "/Applications/alohi/gojnimloh/lmoel", 
+            "is_app": 0, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "lmoel", 
+            "connections": {}, 
+            "instances": 1, 
+            "depth": 4, 
+            "group": "/Applications/alohi/gojnimloh"
+        }, 
+        {
+            "leaf": 0, 
+            "name": "/Applications/niha/lha", 
+            "is_app": 0, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "lha", 
+            "connections": {}, 
+            "instances": 0, 
+            "depth": 3, 
+            "group": "/Applications/niha"
+        }, 
+        {
+            "leaf": 1, 
+            "name": "/Applications/alohi/honaoel/nee/lha-lan-lmiena-snnoli", 
+            "is_app": 0, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "lha-lan-lmiena-snnoli", 
+            "connections": {}, 
+            "instances": 0, 
+            "depth": 5, 
+            "group": "/Applications/alohi/honaoel/nee"
+        }, 
+        {
+            "leaf": 1, 
+            "name": "/Applications/nia/jng/taehona", 
+            "is_app": 0, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "taehona", 
+            "connections": {}, 
+            "instances": 1, 
+            "depth": 4, 
+            "group": "/Applications/nia/jng"
+        }, 
+        {
+            "leaf": 1, 
+            "name": "/Applications/nia/atomi-easela/tamlim-h", 
+            "is_app": 0, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "tamlim-h", 
+            "connections": {}, 
+            "instances": 1, 
+            "depth": 4, 
+            "group": "/Applications/nia/atomi-easela"
+        }, 
+        {
+            "leaf": 0, 
+            "name": "/Applications/niha/lha/aaihiea", 
+            "is_app": 0, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "aaihiea", 
+            "connections": {}, 
+            "instances": 0, 
+            "depth": 4, 
+            "group": "/Applications/niha/lha"
+        }, 
+        {
+            "leaf": 1, 
+            "name": "/Applications/nia/atomi-easela/aetinstim", 
+            "is_app": 0, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "aetinstim", 
+            "connections": {}, 
+            "instances": 1, 
+            "depth": 4, 
+            "group": "/Applications/nia/atomi-easela"
+        }, 
+        {
+            "leaf": 1, 
+            "name": "/Applications/nia/atomi-easela/tamlim-m", 
+            "is_app": 0, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "tamlim-m", 
+            "connections": {}, 
+            "instances": 1, 
+            "depth": 4, 
+            "group": "/Applications/nia/atomi-easela"
+        }, 
+        {
+            "leaf": 1, 
+            "name": "/Applications/alohi/taehonani", 
+            "is_app": 0, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "taehonani", 
+            "connections": {}, 
+            "instances": 1, 
+            "depth": 3, 
+            "group": "/Applications/alohi"
+        }, 
+        {
+            "leaf": 0, 
+            "name": "/Applications/nia/jial", 
+            "is_app": 1, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "jial", 
+            "connections": {}, 
+            "instances": 0, 
+            "depth": 3, 
+            "group": "/Applications/nia"
+        }, 
+        {
+            "leaf": 1, 
+            "name": "/Applications/nia/atomi-easela/gl/tamlim-gn", 
+            "is_app": 0, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "tamlim-gn", 
+            "connections": {}, 
+            "instances": 1, 
+            "depth": 5, 
+            "group": "/Applications/nia/atomi-easela/gl"
+        }, 
+        {
+            "leaf": 1, 
+            "name": "/Applications/nia/lha-nia01/iehtaehona", 
+            "is_app": 0, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "iehtaehona", 
+            "connections": {}, 
+            "instances": 1, 
+            "depth": 4, 
+            "group": "/Applications/nia/lha-nia01"
+        }, 
+        {
+            "leaf": 1, 
+            "name": "/Applications/nia/lha-nia01/nitaehona", 
+            "is_app": 0, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "nitaehona", 
+            "connections": {}, 
+            "instances": 1, 
+            "depth": 4, 
+            "group": "/Applications/nia/lha-nia01"
+        }, 
+        {
+            "leaf": 1, 
+            "name": "/Applications/alohi/iemaet-lha/oaetienamgg", 
+            "is_app": 0, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "oaetienamgg", 
+            "connections": {}, 
+            "instances": 1, 
+            "depth": 4, 
+            "group": "/Applications/alohi/iemaet-lha"
+        }, 
+        {
+            "leaf": 0, 
+            "name": "/Applications/niha/lha/mlm/ni", 
+            "is_app": 1, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "ni", 
+            "connections": {}, 
+            "instances": 0, 
+            "depth": 5, 
+            "group": "/Applications/niha/lha/mlm"
+        }, 
+        {
+            "leaf": 1, 
+            "name": "/Applications/alohi/lha-nmaliela/noj/lha", 
+            "is_app": 0, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "lha", 
+            "connections": {}, 
+            "instances": 1, 
+            "depth": 5, 
+            "group": "/Applications/alohi/lha-nmaliela/noj"
+        }, 
+        {
+            "leaf": 1, 
+            "name": "/Applications/alohi/honaoel/taj/lha-lan-mieiel-hihnim-snnoli", 
+            "is_app": 0, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "lha-lan-mieiel-hihnim-snnoli", 
+            "connections": {}, 
+            "instances": 1, 
+            "depth": 5, 
+            "group": "/Applications/alohi/honaoel/taj"
+        }, 
+        {
+            "leaf": 0, 
+            "name": "/Applications/alohi", 
+            "is_app": 0, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "alohi", 
+            "connections": {}, 
+            "instances": 0, 
+            "depth": 2, 
+            "group": "/Applications"
+        }, 
+        {
+            "leaf": 0, 
+            "name": "/Applications/alohi/ntha", 
+            "is_app": 1, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "ntha", 
+            "connections": {}, 
+            "instances": 0, 
+            "depth": 3, 
+            "group": "/Applications/alohi"
+        }, 
+        {
+            "leaf": 1, 
+            "name": "/Applications/niha/lha/aaihiea/ni/aelimltaelamstiasnnoli", 
+            "is_app": 0, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "aelimltaelamstiasnnoli", 
+            "connections": {}, 
+            "instances": 1, 
+            "depth": 6, 
+            "group": "/Applications/niha/lha/aaihiea/ni"
+        }, 
+        {
+            "leaf": 1, 
+            "name": "/Applications/alohi/atomi-easela/tamlim-gn", 
+            "is_app": 0, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "tamlim-gn", 
+            "connections": {}, 
+            "instances": 1, 
+            "depth": 4, 
+            "group": "/Applications/alohi/atomi-easela"
+        }, 
+        {
+            "leaf": 0, 
+            "name": "/Applications/alohi/lha-nmaliela/laemonae", 
+            "is_app": 1, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "laemonae", 
+            "connections": {}, 
+            "instances": 0, 
+            "depth": 4, 
+            "group": "/Applications/alohi/lha-nmaliela"
+        }, 
+        {
+            "leaf": 1, 
+            "name": "/Applications/niha/lha/aaihiea/ni/mieielhihnimasnnoli", 
+            "is_app": 0, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "mieielhihnimasnnoli", 
+            "connections": {}, 
+            "instances": 1, 
+            "depth": 6, 
+            "group": "/Applications/niha/lha/aaihiea/ni"
+        }, 
+        {
+            "leaf": 1, 
+            "name": "/Applications/nia/eth-ntolgamh/anoerona-ni", 
+            "is_app": 0, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "anoerona-ni", 
+            "connections": {}, 
+            "instances": 1, 
+            "depth": 4, 
+            "group": "/Applications/nia/eth-ntolgamh"
+        }, 
+        {
+            "leaf": 1, 
+            "name": "/Applications/alohi/lha-nmaliela/laemonae/lha-laemonae-aensalmai", 
+            "is_app": 0, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "lha-laemonae-aensalmai", 
+            "connections": {}, 
+            "instances": 1, 
+            "depth": 5, 
+            "group": "/Applications/alohi/lha-nmaliela/laemonae"
+        }, 
+        {
+            "leaf": 0, 
+            "name": "/Applications/niha/lha/mlm", 
+            "is_app": 0, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "mlm", 
+            "connections": {}, 
+            "instances": 0, 
+            "depth": 4, 
+            "group": "/Applications/niha/lha"
+        }, 
+        {
+            "leaf": 1, 
+            "name": "/Applications/alohi/atomi-easela/tamlim-m", 
+            "is_app": 0, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "tamlim-m", 
+            "connections": {}, 
+            "instances": 1, 
+            "depth": 4, 
+            "group": "/Applications/alohi/atomi-easela"
+        }, 
+        {
+            "leaf": 1, 
+            "name": "/Applications/alohi/honaoel/oslaaeotilha", 
+            "is_app": 0, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "oslaaeotilha", 
+            "connections": {}, 
+            "instances": 0, 
+            "depth": 4, 
+            "group": "/Applications/alohi/honaoel"
+        }, 
+        {
+            "leaf": 1, 
+            "name": "/Applications/alohi/honaoel/hoj/lha-noelien", 
+            "is_app": 0, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "lha-noelien", 
+            "connections": {}, 
+            "instances": 1, 
+            "depth": 5, 
+            "group": "/Applications/alohi/honaoel/hoj"
+        }, 
+        {
+            "leaf": 0, 
+            "name": "/Applications/alohi/jialaetaei", 
+            "is_app": 1, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "jialaetaei", 
+            "connections": {}, 
+            "instances": 0, 
+            "depth": 3, 
+            "group": "/Applications/alohi"
+        }, 
+        {
+            "leaf": 0, 
+            "name": "/Applications/nia/eth-ntolgamh", 
+            "is_app": 1, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "eth-ntolgamh", 
+            "connections": {}, 
+            "instances": 0, 
+            "depth": 3, 
+            "group": "/Applications/nia"
+        }, 
+        {
+            "leaf": 0, 
+            "name": "/Applications/niha/lha/mlm/ie", 
+            "is_app": 1, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "ie", 
+            "connections": {}, 
+            "instances": 0, 
+            "depth": 5, 
+            "group": "/Applications/niha/lha/mlm"
+        }, 
+        {
+            "leaf": 1, 
+            "name": "/Applications/nia/goj/iemaetona", 
+            "is_app": 0, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "iemaetona", 
+            "connections": {}, 
+            "instances": 1, 
+            "depth": 4, 
+            "group": "/Applications/nia/goj"
+        }, 
+        {
+            "leaf": 1, 
+            "name": "/Applications/alohi/lha-nmaliela/noj/lmienasnnoli", 
+            "is_app": 0, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "lmienasnnoli", 
+            "connections": {}, 
+            "instances": 1, 
+            "depth": 5, 
+            "group": "/Applications/alohi/lha-nmaliela/noj"
+        }, 
+        {
+            "leaf": 0, 
+            "name": "/Applications/nia/iemaet-lha", 
+            "is_app": 1, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "iemaet-lha", 
+            "connections": {}, 
+            "instances": 0, 
+            "depth": 3, 
+            "group": "/Applications/nia"
+        }, 
+        {
+            "leaf": 1, 
+            "name": "/Applications/alohi/honaoel/toj/lha-lan-mieiel-hihnim-snnoli", 
+            "is_app": 0, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "lha-lan-mieiel-hihnim-snnoli", 
+            "connections": {}, 
+            "instances": 0, 
+            "depth": 5, 
+            "group": "/Applications/alohi/honaoel/toj"
+        }, 
+        {
+            "leaf": 1, 
+            "name": "/Applications/niha/lha/mlm/ie/aelimltaelamstiasnnoli", 
+            "is_app": 0, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "aelimltaelamstiasnnoli", 
+            "connections": {}, 
+            "instances": 1, 
+            "depth": 6, 
+            "group": "/Applications/niha/lha/mlm/ie"
+        }, 
+        {
+            "leaf": 0, 
+            "name": "/Applications/alohi/lha-nmaliela/noj", 
+            "is_app": 1, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "noj", 
+            "connections": {}, 
+            "instances": 0, 
+            "depth": 4, 
+            "group": "/Applications/alohi/lha-nmaliela"
+        }, 
+        {
+            "leaf": 1, 
+            "name": "/Applications/niha/lha/aaihiea/ni/lmienasnnoli", 
+            "is_app": 0, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "lmienasnnoli", 
+            "connections": {}, 
+            "instances": 1, 
+            "depth": 6, 
+            "group": "/Applications/niha/lha/aaihiea/ni"
+        }, 
+        {
+            "leaf": 1, 
+            "name": "/Applications/alohi/honaoel/en/lha-lan-lmiena-snnoli", 
+            "is_app": 0, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "lha-lan-lmiena-snnoli", 
+            "connections": {}, 
+            "instances": 1, 
+            "depth": 5, 
+            "group": "/Applications/alohi/honaoel/en"
+        }, 
+        {
+            "leaf": 1, 
+            "name": "/Applications/nia/atomi-easela/tamlim-lt", 
+            "is_app": 0, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "tamlim-lt", 
+            "connections": {}, 
+            "instances": 1, 
+            "depth": 4, 
+            "group": "/Applications/nia/atomi-easela"
+        }, 
+        {
+            "leaf": 1, 
+            "name": "/Applications/nia/atomi-easela/gl/minaa", 
+            "is_app": 0, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "minaa", 
+            "connections": {}, 
+            "instances": 1, 
+            "depth": 5, 
+            "group": "/Applications/nia/atomi-easela/gl"
+        }, 
+        {
+            "leaf": 1, 
+            "name": "/Applications/alohi/jialaetaei/ia-nshhr", 
+            "is_app": 0, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "ia-nshhr", 
+            "connections": {}, 
+            "instances": 0, 
+            "depth": 4, 
+            "group": "/Applications/alohi/jialaetaei"
+        }, 
+        {
+            "leaf": 1, 
+            "name": "/Applications/nia/jng/iehtaehona", 
+            "is_app": 0, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "iehtaehona", 
+            "connections": {}, 
+            "instances": 0, 
+            "depth": 4, 
+            "group": "/Applications/nia/jng"
+        }, 
+        {
+            "leaf": 1, 
+            "name": "/Applications/niha/lha/titl/ni/aiinniha", 
+            "is_app": 0, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "aiinniha", 
+            "connections": {}, 
+            "instances": 1, 
+            "depth": 6, 
+            "group": "/Applications/niha/lha/titl/ni"
+        }, 
+        {
+            "leaf": 0, 
+            "name": "/Applications/alohi/iemaet-lha", 
+            "is_app": 1, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "iemaet-lha", 
+            "connections": {}, 
+            "instances": 0, 
+            "depth": 3, 
+            "group": "/Applications/alohi"
+        }, 
+        {
+            "leaf": 0, 
+            "name": "/Applications/nia", 
+            "is_app": 0, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "nia", 
+            "connections": {}, 
+            "instances": 0, 
+            "depth": 2, 
+            "group": "/Applications"
+        }, 
+        {
+            "leaf": 1, 
+            "name": "/Applications/alohi/honaoel/taj/lha-noelien-lial", 
+            "is_app": 0, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "lha-noelien-lial", 
+            "connections": {}, 
+            "instances": 0, 
+            "depth": 5, 
+            "group": "/Applications/alohi/honaoel/taj"
+        }, 
+        {
+            "leaf": 1, 
+            "name": "/Applications/niha/lha/mlm/ni/aiinniha", 
+            "is_app": 0, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "aiinniha", 
+            "connections": {}, 
+            "instances": 1, 
+            "depth": 6, 
+            "group": "/Applications/niha/lha/mlm/ni"
+        }, 
+        {
+            "leaf": 0, 
+            "name": "/Applications/nia/atomi-easela", 
+            "is_app": 0, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "atomi-easela", 
+            "connections": {}, 
+            "instances": 0, 
+            "depth": 3, 
+            "group": "/Applications/nia"
+        }, 
+        {
+            "leaf": 0, 
+            "name": "/Applications/alohi/lha-nmaliela", 
+            "is_app": 0, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "lha-nmaliela", 
+            "connections": {}, 
+            "instances": 0, 
+            "depth": 3, 
+            "group": "/Applications/alohi"
+        }, 
+        {
+            "leaf": 1, 
+            "name": "/Applications/alohi/honaoel/taj/lha-noelien", 
+            "is_app": 0, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "lha-noelien", 
+            "connections": {}, 
+            "instances": 1, 
+            "depth": 5, 
+            "group": "/Applications/alohi/honaoel/taj"
+        }, 
+        {
+            "leaf": 1, 
+            "name": "/Applications/alohi/honaoel/taehona", 
+            "is_app": 0, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "taehona", 
+            "connections": {}, 
+            "instances": 1, 
+            "depth": 4, 
+            "group": "/Applications/alohi/honaoel"
+        }, 
+        {
+            "leaf": 1, 
+            "name": "/Applications/alohi/ntha/nhllial", 
+            "is_app": 0, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "nhllial", 
+            "connections": {}, 
+            "instances": 0, 
+            "depth": 4, 
+            "group": "/Applications/alohi/ntha"
+        }, 
+        {
+            "leaf": 1, 
+            "name": "/Applications/alohi/honaoel/toj/lha-lan-lmiena-snnoli", 
+            "is_app": 0, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "lha-lan-lmiena-snnoli", 
+            "connections": {}, 
+            "instances": 0, 
+            "depth": 5, 
+            "group": "/Applications/alohi/honaoel/toj"
+        }, 
+        {
+            "leaf": 0, 
+            "name": "/Applications/alohi/honaoel/en", 
+            "is_app": 1, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "en", 
+            "connections": {}, 
+            "instances": 0, 
+            "depth": 4, 
+            "group": "/Applications/alohi/honaoel"
+        }, 
+        {
+            "leaf": 0, 
+            "name": "/Applications/niha", 
+            "is_app": 0, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "niha", 
+            "connections": {}, 
+            "instances": 0, 
+            "depth": 2, 
+            "group": "/Applications"
+        }, 
+        {
+            "leaf": 1, 
+            "name": "/Applications/alohi/honaoel/toj/lha-noelien", 
+            "is_app": 0, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "lha-noelien", 
+            "connections": {}, 
+            "instances": 1, 
+            "depth": 5, 
+            "group": "/Applications/alohi/honaoel/toj"
+        }, 
+        {
+            "leaf": 0, 
+            "name": "/Applications/alohi/honaoel", 
+            "is_app": 0, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "honaoel", 
+            "connections": {}, 
+            "instances": 0, 
+            "depth": 3, 
+            "group": "/Applications/alohi"
+        }, 
+        {
+            "leaf": 0, 
+            "name": "/Applications/alohi/gojnimloh", 
+            "is_app": 1, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "gojnimloh", 
+            "connections": {}, 
+            "instances": 0, 
+            "depth": 3, 
+            "group": "/Applications/alohi"
+        }, 
+        {
+            "leaf": 1, 
+            "name": "/Applications/alohi/honaoel/nee/lha-lan-mieiel-hihnim-snnoli", 
+            "is_app": 0, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "lha-lan-mieiel-hihnim-snnoli", 
+            "connections": {}, 
+            "instances": 0, 
+            "depth": 5, 
+            "group": "/Applications/alohi/honaoel/nee"
+        }, 
+        {
+            "leaf": 1, 
+            "name": "/Applications/nia/noj/taehonani", 
+            "is_app": 0, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "taehonani", 
+            "connections": {}, 
+            "instances": 0, 
+            "depth": 4, 
+            "group": "/Applications/nia/noj"
+        }, 
+        {
+            "leaf": 0, 
+            "name": "/Applications/alohi/honaoel/toj", 
+            "is_app": 1, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "toj", 
+            "connections": {}, 
+            "instances": 0, 
+            "depth": 4, 
+            "group": "/Applications/alohi/honaoel"
+        }, 
+        {
+            "leaf": 1, 
+            "name": "/Applications/niha/lha/titl/ni/mieielhihnimasnnoli", 
+            "is_app": 0, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "mieielhihnimasnnoli", 
+            "connections": {}, 
+            "instances": 1, 
+            "depth": 6, 
+            "group": "/Applications/niha/lha/titl/ni"
+        }, 
+        {
+            "leaf": 1, 
+            "name": "/Applications/niha/lha/titl/ni/lmienasnnoli", 
+            "is_app": 0, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "lmienasnnoli", 
+            "connections": {}, 
+            "instances": 1, 
+            "depth": 6, 
+            "group": "/Applications/niha/lha/titl/ni"
+        }, 
+        {
+            "leaf": 0, 
+            "name": "/Applications/niha/lha/aaihiea/ni", 
+            "is_app": 1, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "ni", 
+            "connections": {}, 
+            "instances": 0, 
+            "depth": 5, 
+            "group": "/Applications/niha/lha/aaihiea"
+        }, 
+        {
+            "leaf": 0, 
+            "name": "/Applications/niha/lha/titl/ni", 
+            "is_app": 1, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "ni", 
+            "connections": {}, 
+            "instances": 0, 
+            "depth": 5, 
+            "group": "/Applications/niha/lha/titl"
+        }, 
+        {
+            "leaf": 0, 
+            "name": "/Applications/nia/noj", 
+            "is_app": 1, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "noj", 
+            "connections": {}, 
+            "instances": 0, 
+            "depth": 3, 
+            "group": "/Applications/nia"
+        }, 
+        {
+            "leaf": 1, 
+            "name": "/Applications/niha/lha/mlm/ni/aelimltaelamstiasnnoli", 
+            "is_app": 0, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "aelimltaelamstiasnnoli", 
+            "connections": {}, 
+            "instances": 1, 
+            "depth": 6, 
+            "group": "/Applications/niha/lha/mlm/ni"
+        }, 
+        {
+            "leaf": 0, 
+            "name": "/Applications", 
+            "is_app": 0, 
+            "tooltip": "root", 
+            "node_name": "Applications", 
+            "connections": {}, 
+            "instances": 0, 
+            "depth": 1, 
+            "group": "/Applications"
+        }, 
+        {
+            "leaf": 1, 
+            "name": "/Applications/niha/lha/mlm/ie/lmienasnnoli", 
+            "is_app": 0, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "lmienasnnoli", 
+            "connections": {}, 
+            "instances": 1, 
+            "depth": 6, 
+            "group": "/Applications/niha/lha/mlm/ie"
+        }, 
+        {
+            "leaf": 1, 
+            "name": "/Applications/alohi/honaoel/hlil/lha-noelien", 
+            "is_app": 0, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "lha-noelien", 
+            "connections": {}, 
+            "instances": 1, 
+            "depth": 5, 
+            "group": "/Applications/alohi/honaoel/hlil"
+        }, 
+        {
+            "leaf": 1, 
+            "name": "/Applications/nia/goj/taehonani", 
+            "is_app": 0, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "taehonani", 
+            "connections": {}, 
+            "instances": 1, 
+            "depth": 4, 
+            "group": "/Applications/nia/goj"
+        }, 
+        {
+            "leaf": 1, 
+            "name": "/Applications/nia/atomi-easela/tamlim-hoat", 
+            "is_app": 0, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "tamlim-hoat", 
+            "connections": {}, 
+            "instances": 0, 
+            "depth": 4, 
+            "group": "/Applications/nia/atomi-easela"
+        }, 
+        {
+            "leaf": 1, 
+            "name": "/Applications/nia/iemaet-lha/oaetienamgg", 
+            "is_app": 0, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "oaetienamgg", 
+            "connections": {}, 
+            "instances": 0, 
+            "depth": 4, 
+            "group": "/Applications/nia/iemaet-lha"
+        }, 
+        {
+            "leaf": 1, 
+            "name": "/Applications/niha/lha/mlm/ni/lmienasnnoli", 
+            "is_app": 0, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "lmienasnnoli", 
+            "connections": {}, 
+            "instances": 1, 
+            "depth": 6, 
+            "group": "/Applications/niha/lha/mlm/ni"
+        }, 
+        {
+            "leaf": 1, 
+            "name": "/Applications/alohi/honaoel/aeotilial", 
+            "is_app": 0, 
+            "tooltip": "<h5>App info</h5><br>...classified", 
+            "node_name": "aeotilial", 
+            "connections": {}, 
+            "instances": 0, 
+            "depth": 4, 
+            "group": "/Applications/alohi/honaoel"
+        }
+    ], 
+    "stats": "nodes: 130<br>edges: 155<br>instances: 76", 
+    "links": [
+        {
+            "source": 119, 
+            "target": 0, 
+            "weight": 6
+        }, 
+        {
+            "source": 52, 
+            "target": 1, 
+            "weight": 4
+        }, 
+        {
+            "source": 54, 
+            "target": 2, 
+            "weight": 4
+        }, 
+        {
+            "source": 108, 
+            "target": 3, 
+            "weight": 5
+        }, 
+        {
+            "source": 42, 
+            "target": 4, 
+            "weight": 5
+        }, 
+        {
+            "source": 102, 
+            "target": 5, 
+            "weight": 4
+        }, 
+        {
+            "source": 62, 
+            "target": 6, 
+            "weight": 4
+        }, 
+        {
+            "source": 90, 
+            "target": 7, 
+            "weight": 5
+        }, 
+        {
+            "source": 21, 
+            "target": 8, 
+            "weight": 5
+        }, 
+        {
+            "source": 109, 
+            "target": 9, 
+            "weight": 3
+        }, 
+        {
+            "source": 111, 
+            "target": 10, 
+            "weight": 4
+        }, 
+        {
+            "source": 90, 
+            "target": 11, 
+            "weight": 5
+        }, 
+        {
+            "source": 112, 
+            "target": 12, 
+            "weight": 4
+        }, 
+        {
+            "source": 109, 
+            "target": 13, 
+            "weight": 3
+        }, 
+        {
+            "source": 84, 
+            "target": 14, 
+            "weight": 6
+        }, 
+        {
+            "source": 23, 
+            "target": 15, 
+            "weight": 4
+        }, 
+        {
+            "source": 119, 
+            "target": 16, 
+            "weight": 6
+        }, 
+        {
+            "source": 82, 
+            "target": 17, 
+            "weight": 4
+        }, 
+        {
+            "source": 83, 
+            "target": 18, 
+            "weight": 4
+        }, 
+        {
+            "source": 21, 
+            "target": 19, 
+            "weight": 5
+        }, 
+        {
+            "source": 99, 
+            "target": 20, 
+            "weight": 3
+        }, 
+        {
+            "source": 111, 
+            "target": 21, 
+            "weight": 4
+        }, 
+        {
+            "source": 5, 
+            "target": 22, 
+            "weight": 5
+        }, 
+        {
+            "source": 99, 
+            "target": 23, 
+            "weight": 3
+        }, 
+        {
+            "source": 5, 
+            "target": 24, 
+            "weight": 5
+        }, 
+        {
+            "source": 52, 
+            "target": 25, 
+            "weight": 4
+        }, 
+        {
+            "source": 52, 
+            "target": 26, 
+            "weight": 4
+        }, 
+        {
+            "source": 84, 
+            "target": 27, 
+            "weight": 6
+        }, 
+        {
+            "source": 52, 
+            "target": 28, 
+            "weight": 4
+        }, 
+        {
+            "source": 99, 
+            "target": 29, 
+            "weight": 3
+        }, 
+        {
+            "source": 31, 
+            "target": 30, 
+            "weight": 5
+        }, 
+        {
+            "source": 111, 
+            "target": 31, 
+            "weight": 4
+        }, 
+        {
+            "source": 109, 
+            "target": 32, 
+            "weight": 3
+        }, 
+        {
+            "source": 108, 
+            "target": 33, 
+            "weight": 5
+        }, 
+        {
+            "source": 5, 
+            "target": 34, 
+            "weight": 5
+        }, 
+        {
+            "source": 23, 
+            "target": 35, 
+            "weight": 4
+        }, 
+        {
+            "source": 102, 
+            "target": 36, 
+            "weight": 4
+        }, 
+        {
+            "source": 48, 
+            "target": 37, 
+            "weight": 4
+        }, 
+        {
+            "source": 62, 
+            "target": 38, 
+            "weight": 4
+        }, 
+        {
+            "source": 31, 
+            "target": 39, 
+            "weight": 5
+        }, 
+        {
+            "source": 52, 
+            "target": 40, 
+            "weight": 4
+        }, 
+        {
+            "source": 70, 
+            "target": 41, 
+            "weight": 3
+        }, 
+        {
+            "source": 111, 
+            "target": 42, 
+            "weight": 4
+        }, 
+        {
+            "source": 67, 
+            "target": 43, 
+            "weight": 6
+        }, 
+        {
+            "source": 10, 
+            "target": 44, 
+            "weight": 5
+        }, 
+        {
+            "source": 67, 
+            "target": 45, 
+            "weight": 6
+        }, 
+        {
+            "source": 102, 
+            "target": 46, 
+            "weight": 4
+        }, 
+        {
+            "source": 118, 
+            "target": 47, 
+            "weight": 6
+        }, 
+        {
+            "source": 99, 
+            "target": 48, 
+            "weight": 3
+        }, 
+        {
+            "source": 120, 
+            "target": 49, 
+            "weight": 4
+        }, 
+        {
+            "source": 102, 
+            "target": 50, 
+            "weight": 4
+        }, 
+        {
+            "source": 84, 
+            "target": 51, 
+            "weight": 6
+        }, 
+        {
+            "source": 70, 
+            "target": 52, 
+            "weight": 3
+        }, 
+        {
+            "source": 112, 
+            "target": 53, 
+            "weight": 4
+        }, 
+        {
+            "source": 109, 
+            "target": 54, 
+            "weight": 3
+        }, 
+        {
+            "source": 42, 
+            "target": 55, 
+            "weight": 5
+        }, 
+        {
+            "source": 29, 
+            "target": 56, 
+            "weight": 4
+        }, 
+        {
+            "source": 102, 
+            "target": 57, 
+            "weight": 4
+        }, 
+        {
+            "source": 54, 
+            "target": 58, 
+            "weight": 4
+        }, 
+        {
+            "source": 102, 
+            "target": 59, 
+            "weight": 4
+        }, 
+        {
+            "source": 102, 
+            "target": 60, 
+            "weight": 4
+        }, 
+        {
+            "source": 70, 
+            "target": 61, 
+            "weight": 3
+        }, 
+        {
+            "source": 99, 
+            "target": 62, 
+            "weight": 3
+        }, 
+        {
+            "source": 5, 
+            "target": 63, 
+            "weight": 5
+        }, 
+        {
+            "source": 20, 
+            "target": 64, 
+            "weight": 4
+        }, 
+        {
+            "source": 20, 
+            "target": 65, 
+            "weight": 4
+        }, 
+        {
+            "source": 98, 
+            "target": 66, 
+            "weight": 4
+        }, 
+        {
+            "source": 78, 
+            "target": 67, 
+            "weight": 5
+        }, 
+        {
+            "source": 90, 
+            "target": 68, 
+            "weight": 5
+        }, 
+        {
+            "source": 10, 
+            "target": 69, 
+            "weight": 5
+        }, 
+        {
+            "source": 122, 
+            "target": 70, 
+            "weight": 2
+        }, 
+        {
+            "source": 70, 
+            "target": 71, 
+            "weight": 3
+        }, 
+        {
+            "source": 118, 
+            "target": 72, 
+            "weight": 6
+        }, 
+        {
+            "source": 52, 
+            "target": 73, 
+            "weight": 4
+        }, 
+        {
+            "source": 103, 
+            "target": 74, 
+            "weight": 4
+        }, 
+        {
+            "source": 118, 
+            "target": 75, 
+            "weight": 6
+        }, 
+        {
+            "source": 83, 
+            "target": 76, 
+            "weight": 4
+        }, 
+        {
+            "source": 74, 
+            "target": 77, 
+            "weight": 5
+        }, 
+        {
+            "source": 54, 
+            "target": 78, 
+            "weight": 4
+        }, 
+        {
+            "source": 52, 
+            "target": 79, 
+            "weight": 4
+        }, 
+        {
+            "source": 111, 
+            "target": 80, 
+            "weight": 4
+        }, 
+        {
+            "source": 21, 
+            "target": 81, 
+            "weight": 5
+        }, 
+        {
+            "source": 70, 
+            "target": 82, 
+            "weight": 3
+        }, 
+        {
+            "source": 99, 
+            "target": 83, 
+            "weight": 3
+        }, 
+        {
+            "source": 78, 
+            "target": 84, 
+            "weight": 5
+        }, 
+        {
+            "source": 48, 
+            "target": 85, 
+            "weight": 4
+        }, 
+        {
+            "source": 90, 
+            "target": 86, 
+            "weight": 5
+        }, 
+        {
+            "source": 99, 
+            "target": 87, 
+            "weight": 3
+        }, 
+        {
+            "source": 115, 
+            "target": 88, 
+            "weight": 5
+        }, 
+        {
+            "source": 84, 
+            "target": 89, 
+            "weight": 6
+        }, 
+        {
+            "source": 103, 
+            "target": 90, 
+            "weight": 4
+        }, 
+        {
+            "source": 118, 
+            "target": 91, 
+            "weight": 6
+        }, 
+        {
+            "source": 108, 
+            "target": 92, 
+            "weight": 5
+        }, 
+        {
+            "source": 102, 
+            "target": 93, 
+            "weight": 4
+        }, 
+        {
+            "source": 5, 
+            "target": 94, 
+            "weight": 5
+        }, 
+        {
+            "source": 82, 
+            "target": 95, 
+            "weight": 4
+        }, 
+        {
+            "source": 29, 
+            "target": 96, 
+            "weight": 4
+        }, 
+        {
+            "source": 119, 
+            "target": 97, 
+            "weight": 6
+        }, 
+        {
+            "source": 70, 
+            "target": 98, 
+            "weight": 3
+        }, 
+        {
+            "source": 122, 
+            "target": 99, 
+            "weight": 2
+        }, 
+        {
+            "source": 10, 
+            "target": 100, 
+            "weight": 5
+        }, 
+        {
+            "source": 67, 
+            "target": 101, 
+            "weight": 6
+        }, 
+        {
+            "source": 99, 
+            "target": 102, 
+            "weight": 3
+        }, 
+        {
+            "source": 70, 
+            "target": 103, 
+            "weight": 3
+        }, 
+        {
+            "source": 10, 
+            "target": 104, 
+            "weight": 5
+        }, 
+        {
+            "source": 111, 
+            "target": 105, 
+            "weight": 4
+        }, 
+        {
+            "source": 71, 
+            "target": 106, 
+            "weight": 4
+        }, 
+        {
+            "source": 115, 
+            "target": 107, 
+            "weight": 5
+        }, 
+        {
+            "source": 111, 
+            "target": 108, 
+            "weight": 4
+        }, 
+        {
+            "source": 122, 
+            "target": 109, 
+            "weight": 2
+        }, 
+        {
+            "source": 115, 
+            "target": 110, 
+            "weight": 5
+        }, 
+        {
+            "source": 70, 
+            "target": 111, 
+            "weight": 3
+        }, 
+        {
+            "source": 70, 
+            "target": 112, 
+            "weight": 3
+        }, 
+        {
+            "source": 42, 
+            "target": 113, 
+            "weight": 5
+        }, 
+        {
+            "source": 120, 
+            "target": 114, 
+            "weight": 4
+        }, 
+        {
+            "source": 111, 
+            "target": 115, 
+            "weight": 4
+        }, 
+        {
+            "source": 119, 
+            "target": 116, 
+            "weight": 6
+        }, 
+        {
+            "source": 119, 
+            "target": 117, 
+            "weight": 6
+        }, 
+        {
+            "source": 58, 
+            "target": 118, 
+            "weight": 5
+        }, 
+        {
+            "source": 2, 
+            "target": 119, 
+            "weight": 5
+        }, 
+        {
+            "source": 99, 
+            "target": 120, 
+            "weight": 3
+        }, 
+        {
+            "source": 67, 
+            "target": 121, 
+            "weight": 6
+        }, 
+        {
+            "source": 84, 
+            "target": 123, 
+            "weight": 6
+        }, 
+        {
+            "source": 31, 
+            "target": 124, 
+            "weight": 5
+        }, 
+        {
+            "source": 48, 
+            "target": 125, 
+            "weight": 4
+        }, 
+        {
+            "source": 102, 
+            "target": 126, 
+            "weight": 4
+        }, 
+        {
+            "source": 87, 
+            "target": 127, 
+            "weight": 4
+        }, 
+        {
+            "source": 67, 
+            "target": 128, 
+            "weight": 6
+        }, 
+        {
+            "source": 111, 
+            "target": 129, 
+            "weight": 4
+        }, 
+        {
+            "source": 11, 
+            "target": 7, 
+            "weight": 100
+        }, 
+        {
+            "source": 68, 
+            "target": 7, 
+            "weight": 100
+        }, 
+        {
+            "source": 86, 
+            "target": 7, 
+            "weight": 100
+        }, 
+        {
+            "source": 0, 
+            "target": 13, 
+            "weight": 100
+        }, 
+        {
+            "source": 16, 
+            "target": 13, 
+            "weight": 100
+        }, 
+        {
+            "source": 43, 
+            "target": 13, 
+            "weight": 100
+        }, 
+        {
+            "source": 45, 
+            "target": 13, 
+            "weight": 100
+        }, 
+        {
+            "source": 47, 
+            "target": 13, 
+            "weight": 100
+        }, 
+        {
+            "source": 72, 
+            "target": 13, 
+            "weight": 100
+        }, 
+        {
+            "source": 75, 
+            "target": 13, 
+            "weight": 100
+        }, 
+        {
+            "source": 91, 
+            "target": 13, 
+            "weight": 100
+        }, 
+        {
+            "source": 116, 
+            "target": 13, 
+            "weight": 100
+        }, 
+        {
+            "source": 117, 
+            "target": 13, 
+            "weight": 100
+        }, 
+        {
+            "source": 121, 
+            "target": 13, 
+            "weight": 100
+        }, 
+        {
+            "source": 128, 
+            "target": 13, 
+            "weight": 100
+        }, 
+        {
+            "source": 76, 
+            "target": 18, 
+            "weight": 100
+        }, 
+        {
+            "source": 76, 
+            "target": 18, 
+            "weight": 100
+        }, 
+        {
+            "source": 14, 
+            "target": 32, 
+            "weight": 100
+        }, 
+        {
+            "source": 27, 
+            "target": 32, 
+            "weight": 100
+        }, 
+        {
+            "source": 89, 
+            "target": 32, 
+            "weight": 100
+        }, 
+        {
+            "source": 123, 
+            "target": 32, 
+            "weight": 100
+        }, 
+        {
+            "source": 125, 
+            "target": 37, 
+            "weight": 100
+        }, 
+        {
+            "source": 61, 
+            "target": 41, 
+            "weight": 100
+        }, 
+        {
+            "source": 66, 
+            "target": 61, 
+            "weight": 100
+        }, 
+        {
+            "source": 77, 
+            "target": 61, 
+            "weight": 100
+        }, 
+        {
+            "source": 49, 
+            "target": 114, 
+            "weight": 100
+        }
+    ]
+}
