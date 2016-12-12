@@ -6,11 +6,7 @@ A marathon orchestra overview in d3.
 
 [Marathon](https://mesosphere.github.io/marathon/), the container orchestration platform for [Apache Mesos](http://mesos.apache.org/), has a handy Web UI. But with growing size of images and relations it becomes hard to track. This project take the app list from the Marathon API and transforms it into a graph to visualize the network in a browser.
 
-![Networking UI Detail](https://raw.githubusercontent.com/rebeling/networking/master/docs/networking-ui-detail.png "Networking UI Detail" =600x20)
-
-<div style="text-align: center">
-<img src="https://raw.githubusercontent.com/rebeling/networking/master/docs/networking-ui-detail.png" alt="Drawing" style="width:92%;"/>
-</div>
+<div style="text-align:center;margin-top:55px;margin-bottom:50px;"><img src="https://raw.githubusercontent.com/rebeling/networking/master/docs/networking-ui-detail.png" alt="Networking UI Detail" style="width:92%;"/></div>
 
 ### Features
     
