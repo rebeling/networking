@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
-import pylab as plt
 from networkx.drawing.nx_agraph import graphviz_layout
 from jinja2 import Template
 # from collections import Counter
 
 
 def draw_graph(G):
+    import pylab as plt
     nx.draw(G, pos=graphviz_layout(G), node_size=300, cmap=plt.cm.Blues,
             node_color=range(len(G)), prog='dot')
     plt.show()
@@ -43,7 +43,7 @@ def render_info(data):
     <h5>env</h5>
     <ul class="list-unstyled">
     {% for n, m in env_data %}
-        <li>{{ n }}:<br><i>{{ m }}</i></li>
+        <li>{{ n }}: <i>{{ m }}</i></li>
     {% endfor %}
     </ul>
     {% endif %}
