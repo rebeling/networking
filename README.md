@@ -31,4 +31,5 @@ All dependecies so far:
 * networkx (1.11)
 * marathon (0.8.7)
 
-Create a file secrets.py with the values of USERNAME, PASSWORD, MARATHON_URL
+Create a file secrets.py with the values of USERNAME, PASSWORD, MARATHON_URL, connect to marathon and have fun ;)
+
