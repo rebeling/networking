@@ -33,3 +33,4 @@ All dependecies so far:
 
 Create a file secrets.py with the values for USERNAME, PASSWORD, MARATHON_URL, connect to marathon and have fun ;)
 
+Or check this out Vizceral Open Source by Netflix http://techblog.netflix.com/2016/08/vizceral-open-source.html
